@@ -115,6 +115,7 @@ interface WaybillData {
 }
 
 export const Feed: React.FC = () => {
+  console.log('Feed mounted');
   const navigate = useNavigate();
   const { user, isAdmin, loading: authLoading } = useAuth();
   
